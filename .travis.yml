@@ -16,6 +16,8 @@
 
 sudo: false
 language: java
+os:
+- linux-ppc64le
 cache:
   directories:
   - $HOME/.m2
